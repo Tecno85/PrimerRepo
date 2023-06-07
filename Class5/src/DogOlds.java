@@ -14,13 +14,11 @@ public class DogOlds {
     public static void main(String[] args) {
         Scanner income = new Scanner(System.in);
 
-        System.out.println("");
-        System.out.print("Por favor ingrese la edad de su perro: ");
+        System.out.print("\nPor favor ingrese la edad de su perro: ");
         int humanOld = income.nextInt();
 
         int dogOld = (humanOld * 7);
         System.out.println("La edad en años humanos de su perro es: " + dogOld);
-        System.out.println("");
 
     }
 }
