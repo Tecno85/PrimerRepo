@@ -1,7 +1,6 @@
 // Conversor de millas a Kilómetros
 
 import java.util.Scanner;
-
 public class Converter {
     public static void main(String[] args) {
         Scanner milesTotal = new Scanner(System.in);
