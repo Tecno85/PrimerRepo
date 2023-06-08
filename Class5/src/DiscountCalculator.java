@@ -10,16 +10,15 @@
 import java.util.Scanner;
 public class DiscountCalculator {
     public static void main(String[] args) {
-
         Scanner enter = new Scanner(System.in);
 
         System.out.print("\nIngrese el precio original del producto: ");
-        double originalPrice = enter.nextDouble();
+        float originalPrice = enter.nextFloat();
 
         System.out.print("Ingrese el porcentaje de descuento: ");
-        double discount = enter.nextDouble();
+        float discount = enter.nextFloat();
 
-        double finalPrice = originalPrice - (originalPrice * (discount / 100));
+        float finalPrice = originalPrice - (originalPrice * (discount / 100));
 
         System.out.println("El precio Final del producto es: " + finalPrice);
     }
