@@ -21,7 +21,7 @@ public class DiscountCalculator {
 
         double finalPrice = originalPrice - (originalPrice * (discount / 100));
 
-        System.out.println("El precio Final del producto es: "+ finalPrice);
+        System.out.println("El precio Final del producto es: " + finalPrice);
     }
 }
 
